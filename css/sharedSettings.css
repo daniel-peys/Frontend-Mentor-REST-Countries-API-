@@ -1,0 +1,24 @@
+/* Settings */
+
+:root {
+  --bg-color: whitesmoke;
+  --bg-card-color: #fff;
+  --font-color: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
